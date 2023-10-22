@@ -1,0 +1,98 @@
+.aboutme {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    background-color: var(--background);
+    margin-bottom: 50px;
+}
+
+.aboutme > h1 {
+    font-size: 42px;
+}
+
+.aboutme > p {
+    font-size: 20px;
+    color: #555;
+    text-align: center;
+}
+
+.aboutme > section > p{
+    font-size: 20px;
+    color: #555;
+}
+
+.aboutme > section {
+    padding: 0;
+    width: 50%;
+}
+
+.aboutme > .inner {
+    max-width: 900px;
+}
+
+.aboutme > .inner > h1 {
+    font-size: 45px;
+    text-align: center;
+}
+
+.aboutme > .inner > p {
+    font-size: 20px;
+    color: #555;
+    text-align: center;
+}
+
+.aboutme > .inner > section {
+    margin-top: 30px;
+}
+
+.aboutme > .inner > section > p{
+    font-size: 20px;
+    color: #555;
+}
+
+.aboutme > .inner > section > h2 {
+    font-size: 32px;
+} 
+
+.skills {
+    margin-top: 100px;
+}
+
+.skills > h2 {
+    margin-bottom: 40px;
+    font-size: 31px;
+}
+
+.skills-container {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.skill {
+    padding: 1rem 2rem;
+    margin-bottom: 1.5rem;
+    margin-right: 1.5rem;
+    background: rgba(153,153,153,.2);
+    border-radius: 5px;
+    font-weight: 600;
+    color: #666;
+}
+
+@media only screen and (max-width: 1000px) {
+    .aboutme {
+        width: 100vw;
+    }
+    .inner {
+        padding: 20px;
+    }
+
+    .aboutme h2 {
+        font-size: 43px;
+    }
+
+    .aboutme > section {
+        font-size: 12px;
+    }
+}

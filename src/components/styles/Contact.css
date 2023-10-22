@@ -1,0 +1,72 @@
+.contact {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 50px;
+    background: linear-gradient(to right,rgba(245,245,245,.8),rgba(245,245,245,.8)),url(https://d33wubrfki0l68.cloudfront.net/daac8858fd4a0ccea44f59dfd079c3c16c263f33/c157c/assets/svg/common-bg.svg);
+    padding-top: 50px;
+}
+
+
+.form-container {
+    box-shadow: rgb(100 100 111 / 20%) 0 7px 29px 0;
+    background: #fff;
+    padding: 4rem;
+    margin-top: 6rem;
+    width: 100%;
+    text-align: right;
+    border-radius: 5px;
+}
+
+.input {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 40px;
+}
+
+.input > input {
+    color: #333;
+    padding: 20px;
+    width: 100%;
+    border: 1px solid #ebebeb;
+    letter-spacing: 0;
+    background: #f0f0f0;
+    border-radius: 5px;
+    font-weight: 600;
+}
+
+textarea {
+    color: #333;
+    padding: 20px;
+    width: 100%;
+    border: 1px solid #ebebeb;
+    letter-spacing: 0;
+    background: #f0f0f0;
+    border-radius: 5px;
+    font-weight: 600;
+    min-height: 180px;
+    resize: none;
+}
+
+label {
+    color: #666;
+    font-size: 1.4rem;
+    letter-spacing: 1px;
+    font-weight: 700;
+    margin-bottom: 1rem;
+    display: block;
+    text-align: left;
+}
+
+@media only screen and (max-width: 1000px) {
+    .contact {
+        padding: 20px;
+        width: 90vw;
+    }
+
+    .form-container {
+        width: 60vw;
+        align-self: flex-start;
+    }
+}

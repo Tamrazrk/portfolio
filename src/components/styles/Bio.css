@@ -1,0 +1,83 @@
+.bio {
+    height: 800px;
+    background: linear-gradient(to right,rgba(245,245,245,.8),rgba(245,245,245,.8)),url(https://d33wubrfki0l68.cloudfront.net/daac8858fd4a0ccea44f59dfd079c3c16c263f33/c157c/assets/svg/common-bg.svg);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 20px;
+    position: relative;
+    width: 100%;
+}
+
+.bio h1 {
+    font-size: 48px;
+    text-align: center;
+}
+
+.bio p {
+    font-size: 22px;
+    text-align: center;
+}
+
+.projects-button {
+    background-color: var(--primary);
+    padding: 20px 0;
+    color: white;
+    cursor: pointer;
+    margin-top: 40px;
+    width: 200px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.socials {
+    background-color: white;
+    border-radius: 5px;
+
+    position: absolute;
+    left: 0;
+    top: 200px;
+    padding: 10px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.socials > .icon {
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.socials img {
+    width: 30px;
+    height: 30px;
+    margin: auto;
+}
+
+@media only screen and (max-width: 1000px) {
+    .socials {
+        display: none;
+    }
+
+    .bio {
+        padding: 20px;
+        width: 90vw;
+    }
+
+    .bio > h1 {
+        font-size: 43px;
+    }
+
+    .bio > p {
+        font-size: 19px;
+    }
+}
